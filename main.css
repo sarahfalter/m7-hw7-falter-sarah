@@ -9,7 +9,10 @@
 
 body {
     min-height: 100vh;
-    background: linear-gradient(350deg, black, #1a333c);
+    background-image: url(images/orlando.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
