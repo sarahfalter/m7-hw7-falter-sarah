@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(350deg, black, #1a333c);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    flex: 1;
+    margin-top: 1%;
+}
+
+header {
+    margin-top: 25%;
+}
+
+footer {
+    padding: 1% 0;
+}
